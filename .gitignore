@@ -1,0 +1,70 @@
+# ── Node / React ─────────────────────────────────────────────────────────────
+node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# ── Python / FastAPI ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ── Database ──────────────────────────────────────────────────────────────────
+*.sqlite3
+*.db
+
+# ── Dataset images (large binary files — track only metadata) ────────────────
+dataset/images/train/
+dataset/images/test/
+dataset/images/thumbnails/
+
+# ── AI Model weights ──────────────────────────────────────────────────────────
+ai-model/*.h5
+ai-model/*.pb
+ai-model/*.tflite
+ai-model/clearpath_detector/
+*.ckpt
+*.pth
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/

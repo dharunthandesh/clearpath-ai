@@ -1,0 +1,129 @@
+{
+  "classes": {
+    "illegal_parking": {
+      "id": 0,
+      "label": "Illegal Parking",
+      "severity": "red",
+      "road_color": [
+        80,
+        80,
+        85
+      ],
+      "obj_colors": [
+        [
+          0,
+          0,
+          180
+        ],
+        [
+          180,
+          0,
+          0
+        ],
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          200,
+          180,
+          0
+        ]
+      ],
+      "description": "Vehicle(s) parked illegally on road / emergency lane"
+    },
+    "construction": {
+      "id": 1,
+      "label": "Construction Zone",
+      "severity": "yellow",
+      "road_color": [
+        90,
+        88,
+        82
+      ],
+      "obj_colors": [
+        [
+          220,
+          120,
+          20
+        ],
+        [
+          255,
+          165,
+          0
+        ],
+        [
+          200,
+          50,
+          50
+        ]
+      ],
+      "description": "Construction materials, barriers, or machinery on road"
+    },
+    "vendor_encroachment": {
+      "id": 2,
+      "label": "Vendor Encroachment",
+      "severity": "yellow",
+      "road_color": [
+        85,
+        83,
+        78
+      ],
+      "obj_colors": [
+        [
+          0,
+          150,
+          100
+        ],
+        [
+          200,
+          180,
+          80
+        ],
+        [
+          180,
+          80,
+          20
+        ]
+      ],
+      "description": "Street vendors, stalls, or carts occupying road space"
+    },
+    "garbage_truck": {
+      "id": 3,
+      "label": "Garbage Truck Blockage",
+      "severity": "red",
+      "road_color": [
+        75,
+        75,
+        80
+      ],
+      "obj_colors": [
+        [
+          30,
+          120,
+          30
+        ],
+        [
+          20,
+          100,
+          20
+        ]
+      ],
+      "description": "Garbage collection truck blocking road during pickup"
+    },
+    "clear_road": {
+      "id": 4,
+      "label": "Clear Road",
+      "severity": "green",
+      "road_color": [
+        70,
+        70,
+        75
+      ],
+      "obj_colors": [],
+      "description": "Road is clear with no obstructions"
+    }
+  },
+  "num_classes": 5
+}
