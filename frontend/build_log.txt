@@ -1,0 +1,50 @@
+
+> frontend@0.1.0 build
+> react-scripts build
+
+(node:24460) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Creating an optimized production build...
+Compiled with warnings.
+
+[eslint] 
+src\pages\CityMapPage.js
+  Line 3:60:  'ZoomIn' is defined but never used   no-unused-vars
+  Line 3:68:  'ZoomOut' is defined but never used  no-unused-vars
+
+src\pages\Dashboard.js
+  Line 3:20:    'LineChart' is defined but never used              no-unused-vars
+  Line 3:31:    'Line' is defined but never used                   no-unused-vars
+  Line 7:20:    'TrendingUp' is defined but never used             no-unused-vars
+  Line 8:45:    'Filter' is defined but never used                 no-unused-vars
+  Line 101:12:  'activeTab' is assigned a value but never used     no-unused-vars
+  Line 101:23:  'setActiveTab' is assigned a value but never used  no-unused-vars
+
+src\pages\LandingPage.js
+  Line 6:18:  'Zap' is defined but never used  no-unused-vars
+
+src\pages\RouteFinder.js
+  Line 3:52:  'ChevronRight' is defined but never used  no-unused-vars
+  Line 3:81:  'ArrowRight' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  274.72 kB  build\static\js\main.db569a9f.js
+  13.64 kB   build\static\css\main.10354896.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+

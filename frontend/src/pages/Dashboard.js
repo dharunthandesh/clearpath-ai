@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import {
-    BarChart, Bar, LineChart, Line, PieChart, Pie, Cell,
+    BarChart, Bar, PieChart, Pie, Cell,
     XAxis, YAxis, Tooltip, ResponsiveContainer, AreaChart, Area, Legend
 } from 'recharts';
 import {
-    AlertTriangle, TrendingUp, MapPin, Clock, Shield,
-    ArrowUp, ArrowDown, Activity, Zap, Eye, Filter
+    AlertTriangle, MapPin, Clock, Shield,
+    ArrowUp, ArrowDown, Activity, Zap, Eye
 } from 'lucide-react';
 
 /* ── Mock data ── */
@@ -98,8 +98,6 @@ function CustomTooltip({ active, payload, label }) {
 }
 
 export default function Dashboard() {
-    const [activeTab, setActiveTab] = useState('overview');
-
     return (
         <div className="min-h-screen bg-bglight">
             {/* Header */}

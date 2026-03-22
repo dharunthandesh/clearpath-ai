@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
-import { Filter, MapPin, Clock, Camera, RefreshCw, Layers, ZoomIn, ZoomOut } from 'lucide-react';
+import { Filter, MapPin, Clock, Camera, RefreshCw, Layers } from 'lucide-react';
 import 'leaflet/dist/leaflet.css';
 
 /* ── Mock obstruction data ── */

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup, Polyline, useMap } from 'react-leaflet';
-import { Navigation, MapPin, Clock, AlertTriangle, ChevronRight, Loader, Route, ArrowRight } from 'lucide-react';
+import { Navigation, MapPin, Clock, AlertTriangle, Loader, Route } from 'lucide-react';
 import 'leaflet/dist/leaflet.css';
 
 /* ── Mock data ── */
